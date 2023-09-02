@@ -1,0 +1,53 @@
+@import "../../styles/var.css";
+
+
+.image{
+    width: 60px;
+    height: 60px;
+    position:realtive;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+
+article{
+    width:700px;
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.firstArticle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.secondArticle{
+    display: flex;
+    align-items: center;
+}
+
+.personBtn{
+    background-color: lightslategray;
+    border-color: lightgray;
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.personBtn:hover{
+    color: white;
+    background-color: purple;
+} 
